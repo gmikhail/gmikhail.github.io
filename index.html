@@ -1,9 +1,140 @@
-<!DOCTYPE html>
-<html>
+﻿<!DOCTYPE html>
+<html lang="ru">
 <head>
-	<title>Hello World!</title>
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- search meta -->
+    <meta name="author" content="Михаил Грибанов">
+    <meta name="description" content="Я Михаил Грибанов, программист, и это мой личный сайт.">
+    <meta name="keywords" content="С#, WPF, .NET, NET Framework, Android, Java, программирование, Михаил Грибанов, Mikhail Gribanov, персональный сайт, разработчик, developer">
+    <!-- title -->
+    <title>Михаил Грибанов | Персональный сайт</title>
+    <!-- icon -->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- css | style -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic">
 </head>
 <body>
-<p>Hello World!</p>
+    <!-- container -->
+    <div class="container">
+        <!-- header -->
+        <header>
+            <h1 class="header-title">Михаил Грибанов</h1>
+                <ul class="horizontal-list header-contacts">
+                    <li><a href="https://github.com/gmikhail">GitHub</a></li>
+                    <li><a href="http://stackoverflow.com/users/4866667/mikhail">StackOverflow</a></li>
+                    <li><a href="https://vk.com/gmikhail">ВКонтакте</a></li>
+                </ul>
+        </header>
+        <!-- info -->
+        <div class="info">
+            <div class="info-content">
+                <h2>C# .NET Developer</h2>
+                <p>Разрабатываю ПО на C# с использованием .NET Framework. Предпочитаю WPF. Знаком с HTML/CSS и JavaScript. Полностью или частично знаком с Unity, 3ds Max, Photoshop и другими инструментами которые требуется применять в решении конкретных задач.</p>
+                <p>Использую и при необходимости модифицирую готовые решения. Изучаю разработку приложений для Android (Java) и сопутствующие инструменты/фреймворки.</p>
+            </div>
+            <!-- sidebar -->
+            <div class="sidebar">
+                <h3>Обо мне</h3>
+                <p>Люблю программирование. Проявляю интерес к игровой индустрии. Увлекаюсь современными технологиями. Также мне нравится научная фантастика и электронная музыка. Не пью и не курю.</p>
+            </div>
+        </div>
+        <!-- projects-->
+        <article class="project">
+            <img src="img/gameru-images-uploader.png" alt="Скриншот Gameru Images Uploader">
+            <div class="project-content">
+                <h3>Gameru Images Uploader</h3>
+                <p>Загрузчик изображений для Gameru.net. Написан на C# с использованием WPF. Реализованы плавные анимации и полная кастомизация цветов интерфейса.</p>
+                <a class="btn" target="_blank" href="https://github.com/gmikhail/GameruImagesUploader">Посмотреть</a>
+            </div>
+        </article>
+        <!--<article class="project project-inversed">
+            <img src="img/noimage.png" alt="">
+            <div class="project-content">
+                <h3>Lorem ipsum</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a class="btn" target="_blank" href="#">Посмотреть</a>
+            </div>
+        </article>-->
+
+        <!-- other projects
+        <h2>Другие проекты</h2>
+        <div class="grid">
+        <article class="other-project col-1-2">
+            <div class="other-project-content">
+                <img src="img/noimage.png">
+                <h3>Lorem ipsum</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a class="btn" target="_blank" href="#">Посмотреть</a>
+            </div>
+        </article>
+        <article class="other-project col-1-2">
+            <div class="other-project-content">
+                <img src="img/noimage.png">
+                <h3>Lorem ipsum</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a class="btn" target="_blank" href="#">Посмотреть</a>
+            </div>
+        </article>
+        </div>-->
+
+        <!--<div class="grid">
+        <article class="other-project col-1-3">
+            <div class="other-project-content">
+                <img src="img/noimage.png">
+                <h3>Lorem ipsum</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a class="btn" target="_blank" href="#">Посмотреть</a>
+            </div>
+        </article>
+        <article class="other-project col-1-3">
+            <div class="other-project-content">
+                <img src="img/noimage.png">
+                <h3>Lorem ipsum</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a class="btn" target="_blank" href="#">Посмотреть</a>
+            </div>
+        </article>
+        <article class="other-project col-1-3">
+            <div class="other-project-content">
+                <img src="img/noimage.png">
+                <h3>Lorem ipsum</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a class="btn" target="_blank" href="#">Посмотреть</a>
+            </div>
+        </article>
+        </div>-->
+
+        <!-- footer -->
+        <footer>
+        <div class="grid">
+            <div class="footer-content">
+                <h2>Профессиональные навыки</h2>
+                <h3>Языки программирования</h3>
+                <p>C/C++, C#, Java</p>
+                <h3>Технологии</h3>
+                <p>.NET Framework, Windows Forms, WPF</p>
+                <h3>Веб-технологии</h3>
+                <p>HTML, CSS, JavaScript</p>
+                <h3>Инструменты</h3>
+                <p>GitHub, Visual Studio, IntelliJ IDEA, Paint.NET/Photoshop</p>
+            </div>
+            <div class="footer-content">
+                <h2>Как связаться</h2>
+                <h3>Email</h3>
+                <p><a href="mailto:mikhal.gribanov@gmail.com">mikhal.gribanov@gmail.com</a></p>
+                <h3>Skype</h3>
+                <p><a href="skype:live:mikhail.gribanov?add">live:mikhail.gribanov</a></p>
+                <h3>ВКонтакте</h3>
+                <p><a href="https://vk.com/gmikhail">vk.com/gmikhail</a></p>
+                <h3>Facebook</h3>
+                <p><a href="https://www.facebook.com/gmikhail94">facebook.com/gmikhail94</a></p>
+            </div>
+        </div>
+        <p class="footer-copyright">Copyright © 2015, Михаил Грибанов. Все права защищены.</p>
+        </footer>
+    </div>
 </body>
 </html>
