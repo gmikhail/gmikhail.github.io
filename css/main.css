@@ -90,6 +90,11 @@ header h1
     font-size: 1.3rem;
 }
 
+.info-content p:last-child
+{
+    margin-bottom: 0;
+}
+
 .sidebar
 {
     width: 25%;
