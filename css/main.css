@@ -298,7 +298,7 @@ header h1
 
     .project
     {
-        flex-direction: column;
+        display: block;
     }
 
     .project img
