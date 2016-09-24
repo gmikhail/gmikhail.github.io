@@ -87,6 +87,10 @@ header h1
 {
     padding-right: 16px;
     width: 75%;
+}
+
+.info-content p
+{
     font-size: 1.3rem;
 }
 
@@ -308,13 +312,14 @@ header h1
     .project
     {
         display: block;
+        padding: 0;
     }
 
     .project > img
     {
         width: 100%;
         margin-right: 0;
-        margin-bottom: 32px;
+        margin-bottom: 0;
     }
 
     .project-inversed > img
@@ -335,6 +340,17 @@ header h1
     .grid
     {
         flex-direction: column;
+    }
+
+    .other-project-content
+    {
+        margin: 0px;
+    }
+
+    .other-project:hover
+    {
+        border-color: transparent;
+        box-shadow: none;
     }
 
     .other-project:first-child
