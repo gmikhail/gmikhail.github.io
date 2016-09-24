@@ -24,7 +24,7 @@ a
 
 .container
 {
-    max-width: 1180px;
+    max-width: 1164px;
     margin: auto;
     padding: 32px 64px;
     background-color: #fff;
@@ -40,7 +40,7 @@ header
 
 header h1
 {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
 }
 
 .header-title
@@ -57,7 +57,7 @@ header h1
 {
     content: '/';
     color: #c0c0c0;
-    margin: 0.75rem;
+    margin: .75rem;
 }
 
 .horizontal-list li:first-child:before 
@@ -117,9 +117,10 @@ header h1
     padding: 16px;
 }
 
-.project img
+.project > img
 {
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 1px rgba(0,0,0,0.5);
+    width: 50%;
     margin: 0 4rem 0 0;
 }
 
@@ -130,7 +131,12 @@ header h1
 
 .project-content p
 {
-   margin-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn-google-play img
+{
+    width: 240px;
 }
 
 .btn
@@ -159,7 +165,7 @@ header h1
     flex-direction: row-reverse;
 }
 
-.project-inversed img
+.project-inversed > img
 {
     margin: 0 0 0 4rem;
 }
@@ -193,6 +199,11 @@ header h1
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
+.col-1-2
+{
+    width: 50%;
+}
+
 .col-1-2:first-child
 {
     margin: 0 32px 32px 0;
@@ -205,6 +216,7 @@ header h1
 
 .col-1-3
 {
+    width: 33%;
     margin: 0 0 32px 0;
 }
 
@@ -231,6 +243,8 @@ header h1
 
 .footer-copyright
 {
+    font-size: .8rem;
+    color: #767676;
     text-align: center;
 }
 
@@ -251,14 +265,9 @@ header h1
     {
         display: none;
     }
-
-    .project img
-    {
-        width: 50%;
-    }
 }
 
-@media screen and (max-width: 640px)
+@media screen and (max-width: 720px)
 {
     header
     {
@@ -301,19 +310,24 @@ header h1
         display: block;
     }
 
-    .project img
+    .project > img
     {
         width: 100%;
         margin-right: 0;
         margin-bottom: 32px;
     }
 
-    .project-inversed img
+    .project-inversed > img
     {
         margin-left: 0;
     }
 
     .project-content
+    {
+        width: 100%;
+    }
+
+    .btn-google-play img
     {
         width: 100%;
     }
@@ -326,5 +340,15 @@ header h1
     .other-project:first-child
     {
         margin: 0 0 32px 0;
+    }
+
+    .col-1-2
+    {
+        width: 100%;
+    }
+
+    .col-1-3
+    {
+        width: 100%;
     }
 }
