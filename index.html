@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Mikhail Gribanov</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Material Design -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-red.min.css" />
-  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <title>Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-72802448-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -16,123 +15,122 @@
     gtag('js', new Date());
     gtag('config', 'UA-72802448-1');
   </script>
-<head>
-<body class="mdl-color--grey-50">
-<div class="mdl-layout">
-  <main class="mdl-layout__content" >
-    <div class="page-content mdl-grid" style="max-width: 900px;">
-      <!-- Content here -->
-      <div class="mdl-grid">
+</head>
+<body>
 
-        <!-- Welcome card -->
-        <style>
-        .welcome-card-wide > .mdl-card__title {
-          color: #fff;
-          height: 118px;
-          background: url('images/welcome.png') center / cover;
-        }
-        </style>
+  <nav class="navbar navbar-expand-sm navbar-light bg-light shadow-sm bg-white rounded mb-3 mb-sm-5">
+    <div class="container">
 
-        <div class="welcome-card-wide mdl-card mdl-shadow--2dp mdl-cell mdl-cell--8-col">
-          <div class="mdl-card__title">
-            <h2 class="mdl-card__title-text">Hello World!</h2>
-          </div>
-          <div class="mdl-card__supporting-text">
-            My name is Mikhail. I'm from Ukraine. Most of time I'm Android Developer, but sometimes I make games and other things. This website presents some of my projects.
-          </div>
-          <div class="mdl-card__actions mdl-card--border">
-            <a href="mailto:mikhail.gribanov@gmail.com" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-              Contact me
-            </a>
-          </div>
-        </div>
+      <a class="navbar-brand d-sm-none" href="#">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item d-sm-none">
+            <a class="nav-link" href="https://github.com/gmikhail" target="_blank">GitHub</a>
+          </li>
+          <li class="nav-item d-sm-none">
+            <a class="nav-link" href="https://stackoverflow.com/users/4866667/mikhail" target="_blank">Stack Overflow</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="privacy.html">Privacy & Terms</a>
+          </li>
+        </ul>
+      </div>
 
-        <!-- Projects -->
-        <style>
-        .mdl-card-project {
-          height: 256px;
-        }
-        .mdl-card-project > .mdl-card__title {
-          background: url('images/color-picker.png') center / cover;
-        }
-        .gif-camera > .mdl-card__title {
-          background: url('images/gif-camera.png') center / cover;
-        }
-        .geometry-runner > .mdl-card__title {
-          background: url('images/geometry-runner.png') center / cover;
-        }
-        .gameru > .mdl-card__title {
-          background: url('images/gameru.png') center / cover;
-        }
-        </style>
+      <ul class="nav navbar-nav navbar-right d-none d-sm-flex">
+        <li>
+          <a href="https://stackoverflow.com/users/4866667/mikhail" class="nav-link" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" class="navbar-nav-svg" viewBox="0 0 384 512" role="img">
+              <title>Stack Overflow</title>
+              <path fill="currentColor" fill-rule="evenodd" d="M290.7 311L95 269.7 86.8 309l195.7 41zm51-87L188.2 95.7l-25.5 30.8 153.5 128.3zm-31.2 39.7L129.2 179l-16.7 36.5L293.7 300zM262 32l-32 24 119.3 160.3 32-24zm20.5 328h-200v39.7h200zm39.7 80H42.7V320h-40v160h359.5V320h-40z"/>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/gmikhail" class="nav-link" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" class="navbar-nav-svg" viewBox="0 0 512 499.36" role="img">
+              <title>GitHub</title>
+              <path fill="currentColor" fill-rule="evenodd" d="M256 0C114.64 0 0 114.61 0 256c0 113.09 73.34 209 175.08 242.9 12.8 2.35 17.47-5.56 17.47-12.34 0-6.08-.22-22.18-.35-43.54-71.2 15.49-86.2-34.34-86.2-34.34-11.64-29.57-28.42-37.45-28.42-37.45-23.27-15.84 1.73-15.55 1.73-15.55 25.69 1.81 39.21 26.38 39.21 26.38 22.84 39.12 59.92 27.82 74.5 21.27 2.33-16.54 8.94-27.82 16.25-34.22-56.84-6.43-116.6-28.43-116.6-126.49 0-27.95 10-50.8 26.35-68.69-2.63-6.48-11.42-32.5 2.51-67.75 0 0 21.49-6.88 70.4 26.24a242.65 242.65 0 0 1 128.18 0c48.87-33.13 70.33-26.24 70.33-26.24 14 35.25 5.18 61.27 2.55 67.75 16.41 17.9 26.31 40.75 26.31 68.69 0 98.35-59.85 120-116.88 126.32 9.19 7.9 17.38 23.53 17.38 47.41 0 34.22-.31 61.83-.31 70.23 0 6.85 4.61 14.81 17.6 12.31C438.72 464.97 512 369.08 512 256.02 512 114.62 397.37 0 256 0z"></path>
+            </svg>
+          </a>
+        </li>
+     </ul>
 
-        <div class="mdl-card-project mdl-card mdl-shadow--2dp mdl-cell">
-          <div class="mdl-card__title mdl-card--expand"></div>
-          <div class="mdl-card__supporting-text">
-            App to take color from a camera or images with many extra features.
-          </div>
-          <div class="mdl-card__actions mdl-card--border">
-            <a href="https://play.google.com/store/apps/details?id=gmikhail.colorpicker" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-              Google Play
-            </a>
-          </div>
-        </div>
+    </div>
+  </nav>
 
-        <div class="mdl-card-project gif-camera mdl-card mdl-shadow--2dp mdl-cell">
-          <div class="mdl-card__title mdl-card--expand"></div>
-          <div class="mdl-card__supporting-text">
-            App for recording short gifs.
-          </div>
-          <div class="mdl-card__actions mdl-card--border">
-            <a href="https://play.google.com/store/apps/details?id=gmikhail.gifcamera.free" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-              Google Play
-            </a>
-          </div>
-        </div>
-
-        <div class="mdl-card-project geometry-runner mdl-card mdl-shadow--2dp mdl-cell">
-          <div class="mdl-card__title mdl-card--expand"></div>
-          <div class="mdl-card__supporting-text">
-            Endless runner with randomly generated level.
-          </div>
-          <div class="mdl-card__actions mdl-card--border">
-            <a href="https://play.google.com/store/apps/details?id=com.gmikhail.runner" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-              Google Play
-            </a>
-          </div>
-        </div>
-
-        <div class="mdl-card-project gameru mdl-card mdl-shadow--2dp mdl-cell">
-          <div class="mdl-card__title mdl-card--expand"></div>
-          <div class="mdl-card__supporting-text">
-            App for a gaming portal.
-          </div>
-          <div class="mdl-card__actions mdl-card--border">
-            <a href="https://play.google.com/store/apps/details?id=net.gameru" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-              Google Play
-            </a>
-          </div>
-        </div>
-
-        <!--<div class="mdl-card-project mdl-card mdl-shadow--2dp mdl-cell mdl-cell--hide-phone">
-          <button class="mdl-button mdl-js-button mdl-button--fab">
-            <i class="material-icons">add</i>
-          </button>
-        </div>-->
-
+  <div class="container">
+    <div class="jumbotron mb-3 mb-sm-5">
+      <h1 class="display-4">Hello, world!</h1>
+      <p class="lead">My name is Mikhail. I'm from Ukraine. Most of time I'm Android Developer, but sometimes I make games and other things. This website presents some of my projects.</p>
+      <p class="lead">
+        <span class="badge badge-secondary">Android</span>
+        <span class="badge badge-secondary">Java</span>
+        <span class="badge badge-secondary">Kotlin</span>
+        <span class="badge badge-secondary">Unity</span>
+        <span class="badge badge-secondary">C#</span>
+      </p>
+      <hr class="my-4">
+      <div class="row d-flex justify-content-between mx-auto my-auto">
+        <a class="btn btn-primary mb-3 mb-sm-0" href="mailto:mikhail.gribanov@gmail.com" role="button" target="_blank">Contact me</a>
+        <!-- Ko-fi -->
+        <script src='https://ko-fi.com/widgets/widget_2.js'></script><script>kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'V7V210K3X');kofiwidget2.draw();</script>
       </div>
     </div>
-    
-    <!-- Footer --> 
-    <footer class="mdl-mini-footer mdl-text-color-black mdl-color--grey-50 mdl-color-text--grey-600">
-      <div class="mdl-layout-spacer"></div>
-        <ul class="mdl-mini-footer__link-list">
-          <li><a href="https://gmikhail.github.io/privacy/">Privacy & Terms</a></li>
-        </ul>
-      <div class="mdl-layout-spacer"></div>
-    </footer>
 
-  </main>
-</div>
+    <div class="card-deck mb-0 mb-sm-4">
+      <div class="card">
+        <img src="img/color-picker.png" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Color Picker</h5>
+          <p class="card-text">App to identify color from camera or image with many extra features.</p>
+          <a href="https://play.google.com/store/apps/details?id=gmikhail.colorpicker" class="btn btn-primary stretched-link" target="_blank">Google Play</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/gif-camera.png" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">GIF Camera</h5>
+          <p class="card-text">App for recording short gifs.</p>
+          <a href="https://play.google.com/store/apps/details?id=gmikhail.gifcamera.free" class="btn btn-primary stretched-link" target="_blank">Google Play</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-deck mb-3 mb-sm-5">
+      <div class="card">
+        <img src="img/geometry-runner.png" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Geometry Runner</h5>
+          <p class="card-text">Endless runner with randomly generated level.</p>
+          <a href="https://play.google.com/store/apps/details?id=com.gmikhail.runner" class="btn btn-primary stretched-link" target="_blank">Google Play</a>
+        </div>
+      </div>
+  
+      <div class="card">
+        <img src="img/gameru.png" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Gameru.net</h5>
+          <p class="card-text">App for a gaming portal.</p>
+          <a href="https://play.google.com/store/apps/details?id=net.gameru" class="btn btn-primary stretched-link" target="_blank">Google Play</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="footer">
+    <div class="container-fluid text-center p-5 bg-light">
+      <span class="text-muted">Made with ❤ using <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
+      </span>
+    </div>
+  </footer>
+
 </body>
 </html>
