@@ -1,2 +1,2 @@
 # My personal website
-http://gmikhail.github.io/
+https://gmikhail.github.io/
