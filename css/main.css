@@ -1,0 +1,9 @@
+.footer {
+    font-size: .875rem;
+    background-color: #f7f7f7;
+}
+
+.footer a {
+    font-weight: 600;
+    color: #495057;
+}
