@@ -1,136 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Home | Mikhail</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/main.css">
-  <script src="js/jquery-3.5.1.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-72802448-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-72802448-1');
-  </script>
+	<title>Mikhail Gribanov - Software Developer</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/x-icon" href="favicon.svg">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-72802448-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-72802448-1');
+	</script>
 </head>
 <body>
+	<div class="container">
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-sm border-bottom mb-3 mb-sm-4">
+			<div class="container">
+				<a class="navbar-brand d-sm-none" href="#">
+					<img src="favicon.svg" alt="Logo" width="32" height="32">
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarScroll">
+					<ul class="navbar-nav">
+						<li class="nav-item active d-none d-sm-flex">
+							<a class="nav-link" href="#">Home</a>
+						</li>
+						<li class="nav-item d-sm-none">
+							<a class="nav-link" href="https://github.com/gmikhail" target="_blank">GitHub</a>
+						</li>
+						<li class="nav-item d-sm-none">
+							<a class="nav-link" href="https://stackoverflow.com/users/4866667/mikhail" target="_blank">Stack Overflow</a>
+						</li>
+					</ul>
+				</div>
+				<ul class="nav navbar-nav navbar-right d-none d-sm-flex">
+					<li>
+						<a href="https://stackoverflow.com/users/4866667/mikhail" class="nav-link" target="_blank">
+							<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-stack-overflow" viewBox="0 0 16 16">
+								<path d="M12.412 14.572V10.29h1.428V16H1v-5.71h1.428v4.282h9.984z"/>
+								<path d="M3.857 13.145h7.137v-1.428H3.857v1.428zM10.254 0 9.108.852l4.26 5.727 1.146-.852L10.254 0zm-3.54 3.377 5.484 4.567.913-1.097L7.627 2.28l-.914 1.097zM4.922 6.55l6.47 3.013.603-1.294-6.47-3.013-.603 1.294zm-.925 3.344 6.985 1.469.294-1.398-6.985-1.468-.294 1.397z"/>
+							  </svg>
+						</a>
+					</li>
+					<li>
+						<a href="https://github.com/gmikhail" class="nav-link" target="_blank">
+							<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+								<path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+							  </svg>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<!-- Jumbotron -->
+		<div class="p-5 bg-body-tertiary rounded-4">
+			<h1 class="display-5 fw-bold">Hello world!</h1>
+			<p class="fs-4">My name is Mikhail. I'm a Software Developer from Ukraine. Most of the time I develop Android apps, but sometimes I make games and other things. I like modern technology and things related to science. This website showcases some of my projects.</p>
+			<p class="fs-5">
+				<span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Android</span>
+				<span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Kotlin</span>
+				<span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Java</span>
+				<span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Unity</span>
+				<span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">C#</span>
+				<span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Python</span>
+			</p>
+			<a class="btn btn-primary btn-lg mt-2 icon-link icon-link-hover" href="mailto:mikhail.gribanov@gmail.com" role="button" target="_blank">
+				Contact me
+				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+					<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+				</svg>
+			</a>
+		</div>
+		<!-- Content -->
+		<div class="row align-items-md-stretch mt-3 mt-sm-4">
 
-  <nav class="navbar navbar-expand-sm navbar-light shadow-sm mb-3 mb-sm-5">
-    <div class="container">
+			<div class="col-md-6 mb-3 mb-sm-4">
+				<div class="card border overflow-hidden bg-body-tertiary rounded-4 h-100">
+					<img src="img/color-picker.png" class="card-img-top" alt="Color Picker logo">
+					<div class="p-5">
+						<h2>Color Picker</h2>
+						<p>App to identify color from camera or image with many extra features. For example, representation in various color models and visualization of scientific data, such as color temperature or position on the color spectrum.</p>
+						<span class="badge text-bg-primary rounded-pill">Google Play</span>
+						<span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Android</span>
+						<span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Java</span>
+						<span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Scientific Data</span>
+						<a href="https://play.google.com/store/apps/details?id=gmikhail.colorpicker" class="stretched-link" target="_blank"></a>
+					</div>
+				</div>
+			</div>
 
-      <a class="navbar-brand d-sm-none" href="#">Home</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active d-none d-sm-flex">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item d-sm-none">
-            <a class="nav-link" href="https://github.com/gmikhail" target="_blank">GitHub</a>
-          </li>
-          <li class="nav-item d-sm-none">
-            <a class="nav-link" href="https://stackoverflow.com/users/4866667/mikhail" target="_blank">Stack Overflow</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="privacy.html">Privacy & Terms</a>
-          </li>
-        </ul>
-      </div>
+			<div class="col-md-6 mb-3 mb-sm-4">
+				<div class="card border overflow-hidden bg-body-tertiary rounded-4 h-100">
+					<img src="img/glitch-lab.png" class="rouded-4 card-img-top" alt="Glitch Lab logo">
+					<div class="p-5">
+						<h2>Glitch Lab</h2>
+						<p>App to apply various effects to image from camera or gallery using GLSL shaders with the ability to write your custom shaders using the app.</p>
+						<span class="badge text-bg-primary rounded-pill">Google Play</span>
+						<span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Android</span>
+						<span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Kotlin</span>
+						<span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">GLSL</span>
+						<a href="https://play.google.com/store/apps/details?id=gmikhail.glitchlab" class="stretched-link" target="_blank"></a>
+					</div>
+				</div>
+			</div>
 
-      <ul class="nav navbar-nav navbar-right d-none d-sm-flex">
-        <li>
-          <a href="https://stackoverflow.com/users/4866667/mikhail" class="nav-link" target="_blank">
-            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" class="navbar-nav-svg" viewBox="0 0 384 512" role="img">
-              <title>Stack Overflow</title>
-              <path fill="currentColor" fill-rule="evenodd" d="M290.7 311L95 269.7 86.8 309l195.7 41zm51-87L188.2 95.7l-25.5 30.8 153.5 128.3zm-31.2 39.7L129.2 179l-16.7 36.5L293.7 300zM262 32l-32 24 119.3 160.3 32-24zm20.5 328h-200v39.7h200zm39.7 80H42.7V320h-40v160h359.5V320h-40z"/>
-            </svg>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/gmikhail" class="nav-link" target="_blank">
-            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" class="navbar-nav-svg" viewBox="0 0 512 499.36" role="img">
-              <title>GitHub</title>
-              <path fill="currentColor" fill-rule="evenodd" d="M256 0C114.64 0 0 114.61 0 256c0 113.09 73.34 209 175.08 242.9 12.8 2.35 17.47-5.56 17.47-12.34 0-6.08-.22-22.18-.35-43.54-71.2 15.49-86.2-34.34-86.2-34.34-11.64-29.57-28.42-37.45-28.42-37.45-23.27-15.84 1.73-15.55 1.73-15.55 25.69 1.81 39.21 26.38 39.21 26.38 22.84 39.12 59.92 27.82 74.5 21.27 2.33-16.54 8.94-27.82 16.25-34.22-56.84-6.43-116.6-28.43-116.6-126.49 0-27.95 10-50.8 26.35-68.69-2.63-6.48-11.42-32.5 2.51-67.75 0 0 21.49-6.88 70.4 26.24a242.65 242.65 0 0 1 128.18 0c48.87-33.13 70.33-26.24 70.33-26.24 14 35.25 5.18 61.27 2.55 67.75 16.41 17.9 26.31 40.75 26.31 68.69 0 98.35-59.85 120-116.88 126.32 9.19 7.9 17.38 23.53 17.38 47.41 0 34.22-.31 61.83-.31 70.23 0 6.85 4.61 14.81 17.6 12.31C438.72 464.97 512 369.08 512 256.02 512 114.62 397.37 0 256 0z"></path>
-            </svg>
-          </a>
-        </li>
-     </ul>
+			<div class="col-md-6 mb-3 mb-sm-4">
+				<div class="card border overflow-hidden bg-body-tertiary rounded-4 h-100">
+					<img src="img/gif-camera.png" class="card-img-top" alt="GIF Camera logo">
+					<div class="p-5">
+						<h2>GIF Camera</h2>
+						<p>App for recording short GIF animations from the camera, with the ability to configure recording settings.</p>
+						<span class="badge text-bg-primary rounded-pill">Google Play</span>
+						<span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Android</span>
+						<span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Kotlin</span>
+						<span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">CameraX</span>
+						<a href="https://play.google.com/store/apps/details?id=gmikhail.gifcamera.free" class="stretched-link" target="_blank"></a>
+					</div>
+				</div>
+			</div>
 
-    </div>
-  </nav>
+			<div class="col-md-6 mb-3 mb-sm-4">
+				<div class="card border overflow-hidden bg-body-tertiary rounded-4 h-100">
+					<img src="img/geometry-runner.png" class="card-img-top" alt="Geometry Runner logo">
+					<div class="p-5">
+						<h2>Geometry Runner</h2>
+						<p>Endless runner with infinite level generation and Google Play Games Services integration (authentication, achievements and leaderboard).</p>
+						<span class="badge text-bg-primary rounded-pill">Google Play</span>
+						<span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Android</span>
+						<span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Unity</span>
+						<span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">C#</span>
+						<span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Google Play Games</span>
+						<a href="https://play.google.com/store/apps/details?id=com.gmikhail.runner" class="stretched-link" target="_blank"></a>
+					</div>
+				</div>
+			</div>
 
-  <div class="container">
-    <div class="jumbotron mb-3 mb-sm-5">
-      <h1 class="display-4">Hello world!</h1>
-      <p class="lead">My name is Mikhail. I'm from Ukraine. Most of time I'm Android Developer, but sometimes I make games and other things. This website presents some of my projects.</p>
-      <p class="lead">
-        <span class="badge badge-secondary">Android</span>
-        <span class="badge badge-secondary">Java</span>
-        <span class="badge badge-secondary">Kotlin</span>
-        <span class="badge badge-secondary">Unity</span>
-        <span class="badge badge-secondary">C#</span>
-      </p>
-      <hr class="my-4">
-      <div class="row d-flex justify-content-between mx-auto my-auto">
-        <a class="btn btn-primary btn-lg mb-3 mb-sm-0" href="mailto:mikhail.gribanov@gmail.com" role="button" target="_blank">Contact me</a>
-      </div>
-    </div>
+			<div class="col-md-6 mb-3 mb-sm-4">
+				<div class="card border overflow-hidden bg-body-tertiary rounded-4 h-100">
+					<img src="img/android-notes.png" class="card-img-top" alt="Android Notes logo">
+					<div class="p-5">
+						<h2>Android Notes</h2>
+						<p>Notes app with biometric authentication.</p>
+						<span class="badge text-bg-primary rounded-pill">GitHub</span>
+						<span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Android</span>
+						<span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Kotlin</span>
+						<span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Open Source</span>
+						<a href="https://github.com/gmikhail/android-notes" class="stretched-link" target="_blank"></a>
+					</div>
+				</div>
+			</div>
 
-    <div class="card-deck mb-0 mb-sm-4">
+			<div class="col-md-6 mb-3 mb-sm-4">
+				<div class="card border overflow-hidden bg-body-tertiary rounded-4 h-100">
+					<img src="img/hotkey-manager.png" class="card-img-top" alt="Hotkey Manager logo">
+					<div class="p-5">
+						<h2>Hotkey Manager</h2>
+						<p>Utility that provides additional functionality for keyboard without function keys.</p>
+						<span class="badge text-bg-primary rounded-pill">GitHub</span>
+						<span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Windows</span>
+						<span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Python</span>
+						<span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Open Source</span>
+						<a href="https://github.com/gmikhail/HotkeyManager" class="stretched-link" target="_blank"></a>
+					</div>
+				</div>
+			</div>
 
-      <div class="card">
-        <img src="img/glitch-lab.png" class="card-img-top" alt="">
-        <div class="card-body">
-          <h5 class="card-title">Glitch Lab</h5>
-          <p class="card-text">App to apply various effects to image from camera or gallery.</p>
-          <a href="https://play.google.com/store/apps/details?id=gmikhail.glitchlab" class="btn btn-primary stretched-link" target="_blank">Google Play</a>
-        </div>
-      </div>
-
-      <div class="card">
-        <img src="img/color-picker.png" class="card-img-top" alt="">
-        <div class="card-body">
-          <h5 class="card-title">Color Picker</h5>
-          <p class="card-text">App to identify color from camera or image with many extra features.</p>
-          <a href="https://play.google.com/store/apps/details?id=gmikhail.colorpicker" class="btn btn-primary stretched-link" target="_blank">Google Play</a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="card-deck mb-3 mb-sm-5">
-
-      <div class="card">
-        <img src="img/gif-camera.png" class="card-img-top" alt="">
-        <div class="card-body">
-          <h5 class="card-title">GIF Camera</h5>
-          <p class="card-text">App for recording short gifs.</p>
-          <a href="https://play.google.com/store/apps/details?id=gmikhail.gifcamera.free" class="btn btn-primary stretched-link" target="_blank">Google Play</a>
-        </div>
-      </div>
-
-      <div class="card">
-        <img src="img/geometry-runner.png" class="card-img-top" alt="">
-        <div class="card-body">
-          <h5 class="card-title">Geometry Runner</h5>
-          <p class="card-text">Endless runner with randomly generated level.</p>
-          <a href="https://play.google.com/store/apps/details?id=com.gmikhail.runner" class="btn btn-primary stretched-link" target="_blank">Google Play</a>
-        </div>
-      </div>
-
-    </div>
-
-  </div>
-
-  <footer class="footer container-fluid text-center text-muted p-5">
-    <span>Made with ❤ using <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a></span>
-  </footer>
-
+		</div>
+		<!-- Footer -->
+		<footer class="text-center text-body-secondary border-top pt-3">
+			<p>© 2023 Mikhail Gribanov</p>
+			<p><a class="nav-link" href="privacy.html">Privacy &amp; Terms</a></p>
+		</footer>
+	</div>
 </body>
 </html>
